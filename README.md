@@ -1,3 +1,16 @@
+# Fork using zig as build system
+
+
+Requires:
+- bison 
+- flex 
+- zig 11.0(tested)
+
+To build, run for example:
+
+zig build -target aarch64-linux-gnu
+
+
 # Device Tree Compiler and libfdt
 
 The source tree contains the Device Tree Compiler (dtc) toolchain for
